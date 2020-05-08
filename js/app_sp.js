@@ -340,7 +340,7 @@ window.addEventListener && (window.addEventListener("touchmove", wheel, {
     }).pause();
     var y = new TimelineMax,
         C = new TimelineMax;
-    C.fromTo(".gnav .tit .inner, .gnav .products a, .gnav .portrait a, .gnav .artworks a, .gnav .About a, .gnav .contact a", .6, {
+    C.fromTo(".gnav .tit .inner, .gnav .products a, .gnav .portrait a, .gnav .artworks a, .gnav .profile a, .gnav .contact a", .6, {
         y: 0
     }, {
         y: 40,
@@ -401,7 +401,7 @@ window.addEventListener && (window.addEventListener("touchmove", wheel, {
         }
     }, "start+=0").to(".gnav", .2, {
         display: "block"
-    }, "start+=0.2").staggerFromTo(".gnav .tit .inner, .gnav .products a, .gnav .portrait a, .gnav .artworks a, .gnav .About a, .gnav .contact a", .6, {
+    }, "start+=0.2").staggerFromTo(".gnav .tit .inner, .gnav .products a, .gnav .portrait a, .gnav .artworks a, .gnav .profile a, .gnav .contact a", .6, {
         y: 60,
         x: -30
     }, {

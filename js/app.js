@@ -387,7 +387,7 @@
         }).pause();
         var b = new TimelineMax,
             O = new TimelineMax;
-        O.fromTo(".gnav .tit .inner, .gnav .products a, .gnav .portrait a, .gnav .artworks a, .gnav .About a, .gnav .contact a", .6, {
+        O.fromTo(".gnav .tit .inner, .gnav .products a, .gnav .portrait a, .gnav .artworks a, .gnav .profile a, .gnav .contact a", .6, {
             y: 0
         }, {
             y: 40,
@@ -428,7 +428,7 @@
             ease: Power4.easeOut
         }, "start+=0.2").to(".gnav", .2, {
             display: "block"
-        }, "start+=0.2").staggerFromTo(".gnav .tit .inner, .gnav .products a, .gnav .portrait a, .gnav .artworks a, .gnav .About a, .gnav .contact a", .6, {
+        }, "start+=0.2").staggerFromTo(".gnav .tit .inner, .gnav .products a, .gnav .portrait a, .gnav .artworks a, .gnav .profile a, .gnav .contact a", .6, {
             y: 60,
             x: -30
         }, {
