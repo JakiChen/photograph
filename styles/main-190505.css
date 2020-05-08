@@ -2919,7 +2919,7 @@ body.home #nav a.home.on .name {
     margin-bottom: 23px;
     color: #333;
     text-align: left;
-    font-family: "Yu Gothic Medium", "游ゴシック Medium", YuGothic, "游ゴシック体", "ヒラギノ角ゴ Pro W3", "メイリオ", sans-serif
+    font-family: 'Noto Sans TC', sans-serif;
 }
 #contactArea .txtBox .txtInner .txt:last-child {
     margin-bottom: 0
